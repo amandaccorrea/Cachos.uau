@@ -1,0 +1,479 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  color: #696968;
+  background-image: url(../imagens/fundo14.jpg);
+  margin: 0;
+  font-size: 1rem;
+}
+header {
+  text-align: center;
+  background-color: #fcb39d;
+  padding-top: 3rem;
+  
+}
+header h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 6rem;
+  color: #d8d892;
+}
+nav ul {
+  list-style-type: none;
+  background-color: #7fffd4;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #696968;
+  padding: 1rem;
+  display: block;
+  text-overflow: ellipsis;
+}
+nav li {
+  float: left;
+}
+nav a:hover {
+  background-color: #7be0bf;
+  color: #fcb39d;
+}
+.social {
+  float: right;
+}
+hr {
+  border-top: 0.4rem ridge #fcb39d;
+  width: 100%;
+}
+h2 {
+  text-align: justify;
+  margin-left: 11rem;
+  font-size: 30px;
+}
+.dicas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.s1 {
+  width: 100%;
+  height: fit-content;
+}
+.card {
+  width: 380px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border: 2px dashed #996c57;
+  background-color: #f3c9bc;
+  border-width: 4px;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 10px;
+  padding: 2rem;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card img {
+  width: 200px;
+  height: auto;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.s1 a {
+  color: #696968;
+  background-color: aqua;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-align: center;
+  border-radius: 4rem;
+  height: auto;
+  width: 30%;
+}
+.s1 a:hover {
+  background-color: #7be0bf;
+  color: #fcb39d;
+}
+.c1 {
+  gap: 6rem;
+  display: flex;
+  margin: 0 0.5rem;
+  justify-content: space-between;
+}
+.c2 {
+  gap: 6rem;
+  display: flex;
+  margin: 0 0.5rem;
+  justify-content: space-between;
+}
+.c3 {
+  display: flex;
+  gap: 6rem;
+  justify-content: space-between;
+  margin: 0 0.5rem;
+}
+.s2 {
+  background-color: #fcb39d;
+  display: table;
+  height: 20rem;
+  margin-top: 8px;
+  border-top: 2px dashed #996c57;
+  border-bottom: 2px dashed #996c57;
+}
+.s2 img {
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  margin-top: 1rem;
+  display: table-cell;
+  border: 0.2rem solid #7be0bf;
+}
+.s2 p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.imagem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.texto {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-left: 30rem;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 10rem;
+  display: table-cell;
+  font-size: 1.3rem;
+}
+form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 1em;
+  border: 2px ridge #ccc;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.botao {
+  display: flex;
+  justify-content: center;
+}
+.botao a {
+  background-color: #c7856c;
+  color: #696968;
+  border-radius: 4rem;
+  width: 15rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 2rem;
+  align-items: center;
+}
+.botao a:hover {
+  background-color: #696968;
+  color: #fcb39d;
+}
+.receber {
+  display: flex;
+  flex-direction: row;
+}
+.assinar {
+  display: flex;
+  margin-left: 0;
+  text-align: center;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 45rem;
+  margin: auto;
+  border: 2px dashed #996c57;
+  border-radius: 2rem;
+  padding: 0.5em;
+  background: #73ebeb;
+  align-items: center;
+  margin-top: 5px;
+}
+.formulario label {
+  width: 800px;
+}
+.formulario input {
+  font: 1.3em sans-serif;
+  width: 320px;
+  border: 0.1rem solid #999;
+  border-radius: 3rem;
+}
+footer {
+  background: #fcb39d;
+  margin-top: 0.5rem;
+  padding: 4rem;
+  display: table;
+  width: 100%;
+  height: auto;
+  border-top: 2px dashed #996c57;
+}
+.rodape {
+  text-align: left;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.rodape-direito {
+  display: table-cell;
+  justify-content: right;
+  text-align: right;
+  margin-right: 0;
+  vertical-align: middle;
+}
+.rodape-direito h1 {
+  font-family: "Dancing Script", cursive;
+}
+@media (max-width: 350px){
+  header {
+    width: auto;
+  }
+  header h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .barra {
+    width: auto;
+  }
+  .formulario{
+    width: 16rem;
+    height: auto;
+    padding: 0 0;
+  }
+  .formulario input {
+    width: 200px;
+  }
+  .s2{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .assinar h2{
+    font-size: 8px;
+  }
+  .rodape{
+    font-size: 10px;
+}
+.rodape-direito{
+  font-size: 15px;
+}
+}
+@media (max-width: 760px) {
+  header {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  header h1 {
+    font-size: 49px;
+    text-align: center;
+    margin-left: 0;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    align-items: center;
+  }
+  ul{
+    flex-direction: column;
+   display: flex;
+   align-items: center;
+  }
+  nav li a{
+    font-size: 14px;
+  }
+  hr{
+    width: 100%;
+  }
+  h2{
+    text-align: left;
+    margin-left: 5px;
+  }
+  .s1 {
+    margin-left: 0;
+  }
+  .dicas{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    padding: 30px 30px;
+  }
+  .card h3{
+      font-size: 18px;
+  }
+  .c1{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom:5rem ;
+    justify-items: center;
+    align-items: center;
+    margin-left: 0;
+  }
+  .c2{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-bottom:5rem ;
+    margin-left: 0;
+  }
+  .c3{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;;
+    align-items: center;
+    padding-bottom:5rem ;
+    margin-left: 0;
+  }
+  .s2{
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: baseline;
+    margin-bottom:20px ;
+  }
+  .s2 img {
+    width: 9rem;
+    height: 9rem;
+   display: flex;
+  }
+  .s2 p{
+    text-align: center;
+    font-size:12px;
+    display: flex;
+    justify-self: center;
+    padding: 5px 
+  }
+  .sobre{
+    display: block;
+    margin-bottom: 20px;
+  }
+  form{
+    border: 0;
+    margin-left: 48px;
+  }
+  .formulario{
+    width: 20rem;
+    justify-content: center;
+  }
+  .formulario input {
+    width: 180px;
+  }
+  .assinar h2{
+    font-size: 4px;
+  }
+  .botao a{
+    width: 70%;
+    font-size: 18px;
+  }
+  footer{
+    width: 100%;
+  }
+  .rodape{
+      font-size: 12px;
+  }
+  .rodape-direito{
+    font-size: 15px;
+    justify-content: right;
+  }
+}
+@media (max-width: 1024px) {
+  header h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    text-align: left;
+    margin-left: 10px;
+  }
+  .dicas{
+    justify-content: space-between;
+  }
+  .card {
+    width: 250px;
+  }
+  .card h3{
+    font-size: 17px;
+  }
+  .card p{
+    font-size: 18px;
+  }
+  .card img{
+    width: 160px;
+  }
+  .s1 a {
+    width: 50%;
+  }
+  .s2 img{
+    width: 13rem;
+    height: 13rem;
+    justify-items: center;
+    margin: 0;
+  }
+  .imagem{
+    justify-content: center;
+  }
+  .texto{
+    font-size: 1rem;
+  }
+  form{
+    border: 0;
+    margin-left: 48px;
+  }
+  .formulario {
+    width: 23rem;
+  }
+  .formulario input {
+    width: 200px;
+  }
+  .assinar {
+    font-size: 22px;
+  }
+  .botao a{
+    width: 70%;
+    font-size: 18px;
+  }
+  footer{
+    width: 100%;
+  }
+}
