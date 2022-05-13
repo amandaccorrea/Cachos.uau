@@ -273,7 +273,11 @@ footer {
   .s2{
     display: grid;
     grid-template-columns: 1fr;
-    
+  }
+  .s2 img{
+      width: 8rem;
+      height: 8rem;
+     display: flex;
   }
   .assinar h2{
     font-size: 8px;
