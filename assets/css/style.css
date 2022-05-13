@@ -251,44 +251,6 @@ footer {
 .rodape-direito h1 {
   font-family: "Dancing Script", cursive;
 }
-@media (max-width: 350px){
-  header {
-    width: auto;
-  }
-  header h1 {
-    font-size: 30px;
-    text-align: center;
-  }
-  .barra {
-    width: auto;
-  }
-  .formulario{
-    width: 16rem;
-    height: auto;
-    padding: 0 0;
-  }
-  .formulario input {
-    width: 200px;
-  }
-  .s2{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .s2 img{
-      width: 8rem;
-      height: 8rem;
-     display: flex;
-  }
-  .assinar h2{
-    font-size: 8px;
-  }
-  .rodape{
-    font-size: 10px;
-}
-.rodape-direito{
-  font-size: 15px;
-}
-}
 @media (max-width: 760px) {
   header {
     width: 100%;
